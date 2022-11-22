@@ -1,0 +1,107 @@
+* {
+	margin: 0;	
+	padding: 0;
+}
+
+nav {
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	background-color: #000;
+	word-spacing: 20px;
+	height: 70px;
+	z-index: 2;
+}
+
+nav a{
+	text-decoration: none;
+	text-decoration-style: none;
+	text-decoration-line: none;
+	color: white;
+	font-size: 20px;
+	position: relative;
+	top: 25px;
+	z-index: 2;
+}
+.chosen-month{
+    height: 160px;
+    width: 150px;
+    padding-top: 160px;
+    text-align:center;
+    position: relative;
+    z-index: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.chosen-month h2{
+    color: #000;
+}
+.colors div{
+    margin-top:40px;
+    width: 8.3%;
+    float: left;
+    position: relative;
+    z-index: 1;   
+    box-shadow: 2px 2px 20px black;
+}
+.color1{
+    background: white;
+    height: 60px;
+}
+.color2{
+    background: purple;
+    height: 60px;
+}
+.color3{
+    background: #9a40ff;
+    height: 60px;
+}
+.color4{
+    background: blue;
+    height: 60px;
+}
+.color5{
+    background: purple;
+    height: 60px;
+}
+.color6{
+    background: red;
+    height: 60px;
+}
+.color7{
+    background: yellow;
+    height: 60px;
+}
+.color8{
+    background: orange;
+    height: 60px;
+}
+.color9{
+    background: yellow;
+    height: 60px;
+}
+.color10{
+    background: deeppink;
+    height: 60px;
+}
+.color11{
+    background: blue;
+    height: 60px;
+}
+.color12{
+    background: red;
+    height: 60px;
+}
+.text{
+    height: 1000px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10%;
+    position: relative;
+    
+}
+.text p{
+    color: #000;
+    font-size: 20px;
+}
