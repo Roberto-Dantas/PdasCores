@@ -1,4 +1,4 @@
-import {clicked} from './js/buttons.js'
+import {clicked} from './buttons.js'
 
 window.onload = function() {
     clicked()
