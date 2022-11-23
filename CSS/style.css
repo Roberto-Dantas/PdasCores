@@ -2,105 +2,131 @@
 	margin: 0;	
 	padding: 0;
 }
-
 nav {
 	text-align: center;
 	position: fixed;
 	width: 100%;
-	background-color: #000;
+	background-color: rgb(255, 255, 255, 0.96);
 	word-spacing: 20px;
 	height: 70px;
 	z-index: 2;
 }
-
-nav a{
+nav a img{
+    height: 20px;
+    float: left;
+}
+.theMenu {
+    loading="lazy";
+    width: 30%; 		
+    margin: 0; 
+    padding: 0; 		
+    float: left;  
+   
+}
+nav a, nav p{
 	text-decoration: none;
 	text-decoration-style: none;
 	text-decoration-line: none;
-	color: white;
+	color: #000;
 	font-size: 20px;
 	position: relative;
+	left: 5%;
 	top: 25px;
 	z-index: 2;
 }
+nav p{
+    float: right;
+    margin-right: 48%;
+}
 .chosen-month{
-    height: 160px;
-    width: 150px;
-    padding-top: 160px;
+    height: fit-content;
+    position: flex;
+    padding: 10px;
     text-align:center;
-    position: relative;
     z-index: 0;
-    margin-left: auto;
-    margin-right: auto;
 }
 .chosen-month h2{
-    color: #000;
+    margin-top: 110px;
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+}
+.colors{
+    height: 125px;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+    
 }
 .colors div{
-    margin-top:40px;
     width: 8.3%;
     float: left;
-    position: relative;
-    z-index: 1;   
+    z-index: 1;
+    position:relative;
     box-shadow: 2px 2px 20px black;
 }
 .color1{
     background: white;
-    height: 60px;
-    position: fixed;
+    height: 90px;
 }
 .color2{
     background: purple;
-    height: 60px;
-    position: fixed;
+    height: 90px;
 }
 .color3{
     background: #9a40ff;
-    height: 60px;
+    height: 90px;
 }
 .color4{
     background: blue;
-    height: 60px;
+    height: 90px;
 }
 .color5{
     background: purple;
-    height: 60px;
+    height: 90px;
 }
 .color6{
     background: red;
-    height: 60px;
+    height: 90px;
 }
 .color7{
     background: yellow;
-    height: 60px;
+    height: 90px;
 }
 .color8{
     background: orange;
-    height: 60px;
+    height: 90px;
 }
 .color9{
     background: yellow;
-    height: 60px;
+    height: 90px;
 }
 .color10{
     background: deeppink;
-    height: 60px;
+    height: 90px;
 }
 .color11{
     background: blue;
-    height: 60px;
+    height: 90px;
 }
 .color12{
     background: red;
-    height: 60px;
+    height: 90px;
 }
 .text{
-    height: 1000px;
-    width: 60%;
+    margin-top:25px;
     margin-left: auto;
     margin-right: auto;
-    padding: 10%;
+    margin-bottom: 25px;
+    height: fit-content;
+    min-height: 800px;
+    width: fit-content;
+    min-width: 300px;
+    padding: 20px;
     position: relative;
+    border-radius: 15px;
     
 }
 .text p{
