@@ -43,7 +43,7 @@ nav p{
     width: 30%;
     height: 100%;		
     padding: 0;
-    background: rgb(240,0,0,0.85);
+    background: rgb(30,30,30,0.85);
     position: fixed;
     float: left;
     z-index: 3;
@@ -65,10 +65,10 @@ nav p{
     float: left;
     cursor: pointer;
     margin-left: 42%;
-    color: #D9AF16;
+    color: #fff;
 }
 .home p{
-    color: #0B1DD9;
+    color: #fff;
     
 }
 .backMenu{
@@ -84,14 +84,14 @@ nav p{
     margin-top: 90px;
 }
 .theMenuUl li{
-    color: #D9AF16;
+    color: #fff;
     padding-bottom: 10px;
     font-weight: 400;
     font-size: 16px;
     
 }
 .theMenuUl p{
-    color: #D9AF16;
+    color: #fff;
     padding-top: 25px;
     font-weight: 400;
     font-size: 15px;
