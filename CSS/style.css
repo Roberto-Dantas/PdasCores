@@ -245,3 +245,15 @@ nav p{
     border-radius: 15px;
     box-shadow: 2px 2px 25px black;    
 }
+footer{
+    height: 125px;
+    box-shadow: 2px 2px 25px black; 
+    text-align: center;   
+}
+
+footer p{
+    font-size: 17px;
+    font-family: Roboto;
+    position: relative;
+    top: 50px;
+}
