@@ -248,7 +248,9 @@ nav p{
 footer{
     height: 125px;
     box-shadow: 2px 2px 25px black; 
-    text-align: center;   
+    text-align: center;
+    position: relative;
+    top: 100px;
 }
 
 footer p{
